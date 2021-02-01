@@ -1,8 +1,8 @@
 # NoResultsRecommendation
 
-The `NoResultsRecommendation` is a wrapper for `Recommendation` component to display recommendations on a Coveo no results page. The component listens to the main search interface and wait for the no results page to be displayed before initializing his child `Recommendation` component. 
+The `NoResultsRecommendation` is a wrapper for `Recommendation` component to display recommendations on a Coveo no results page. The component listens to the main search interface and wait for the no results page to be displayed before initializing the child `Recommendation` component. 
 
-The component also takes care of showing/hidding `Recommendation` component based on the "no resutls" state of the main search interface without triggering additional queries.
+The component also takes care of showing/hiding the `Recommendation` component based on the "no results" state of the main search interface without triggering additional queries.
 
 Disclaimer: This component was built by the community at large and is not an official Coveo JSUI Component. Use this component at your own risk.
 
